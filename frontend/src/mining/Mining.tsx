@@ -31,7 +31,7 @@ const MiningPage = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-between bg-white rounded-lg p-5">
+        <div className="flex justify-between border rounded-lg p-5">
           <div className="w-9/12">
             <h1 className="text-lg mb-3 font-bold">Total Hash Power</h1>
             <p className="w-full break-words font-semibold">175.24 MH/s</p>
@@ -42,7 +42,7 @@ const MiningPage = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-between bg-white rounded-lg p-5">
+        <div className="flex justify-between border rounded-lg p-5">
           <div className="w-9/12">
             <h1 className="text-lg mb-3 font-bold">Unpaid Balance</h1>
             <p className="w-full break-words font-semibold">3.65 ORC</p>
@@ -56,7 +56,7 @@ const MiningPage = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-between bg-white rounded-lg p-5">
+        <div className="flex justify-between border rounded-lg p-5">
           <div className="w-9/12">
             <h1 className="text-lg mb-3 font-bold">Devices Mining</h1>
             <p className="w-full break-words font-semibold">4/5</p>

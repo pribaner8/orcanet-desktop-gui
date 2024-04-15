@@ -84,7 +84,7 @@ export function DataTable<TData, TValue>({
   });
 
   return (
-    <div className="rounded-md bg-white">
+    <div className="rounded-md">
       <Table>
         <TableHeader>
           {table.getHeaderGroups().map((headerGroup) => (
@@ -207,7 +207,7 @@ export default function MiningDevices() {
   const { page } = useParams();
 
   return (
-    <div className="rounded-md bg-white p-5">
+    <div className="rounded-md border p-5">
       <div className="flex justify-between font-bold mb-2">
         <h3 className="text-stone-900 text-xl">Devices</h3>
         {page !== "transactions" && (
