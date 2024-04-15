@@ -72,11 +72,11 @@ const Sidebar = () => {
                 alert={false}
               />
             </Link>
-            <Link to="/store">
+            <Link to="/stats">
               <SidebarItem
                 icon={<Package />}
-                text="Store"
-                active={isActive("/store")}
+                text="Stats"
+                active={isActive("/stats")}
                 alert={false}
               />
             </Link>
