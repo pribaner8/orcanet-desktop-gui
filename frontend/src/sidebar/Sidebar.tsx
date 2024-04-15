@@ -3,6 +3,7 @@ import {
   ChevronLast,
   ChevronFirst,
   BarChart2,
+  Pickaxe,
 } from "lucide-react";
 import { useContext, createContext, useState, ReactNode } from "react";
 import { LayoutDashboard, Settings, Receipt, Package } from "lucide-react";
@@ -93,6 +94,14 @@ const Sidebar = () => {
                 icon={<Receipt />}
                 text="Wallet"
                 active={isActive("/wallet")}
+                alert={false}
+              />
+            </Link>
+            <Link to="/mining">
+              <SidebarItem
+                icon={<Pickaxe />}
+                text="Mining"
+                active={isActive("/mining")}
                 alert={false}
               />
             </Link>

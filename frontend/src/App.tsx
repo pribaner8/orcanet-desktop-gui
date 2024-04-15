@@ -10,9 +10,10 @@ import AppearancePage from "./settings/appearance/AppearancePage";
 import NotificationsPage from "./settings/notifications/NotificationPage";
 import DisplayPage from "./settings/display/DisplayPage";
 import TransferPage from "./settings/transfer/TransferPage";
+import MiningPage from "./mining/Mining";
 import { ThemeProvider } from "@/components/ui/ThemeProvider";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import { Toaster } from "@/components/ui/toaster"
+import { Toaster } from "@/components/ui/toaster";
 function App() {
   return (
     <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
@@ -25,6 +26,7 @@ function App() {
             <Route path="/market" element={<MarketPage />} />
             <Route path="/wallet" element={<WalletPage />} />
             <Route path="/wallet/:page?" element={<WalletPage />} />
+            <Route path="/mining" element={<MiningPage />} />
             <Route path="/settings" element={<SettingsPage />}>
               <Route path="profile" element={<ProfilePage />} />
               <Route path="account" element={<AccountPage />} />
