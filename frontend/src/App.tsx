@@ -24,6 +24,7 @@ function App() {
             <Route path="/stats" element={<StorePage />} />
             <Route path="/market" element={<MarketPage />} />
             <Route path="/wallet" element={<WalletPage />} />
+            <Route path="/wallet/:page?" element={<WalletPage />} />
             <Route path="/settings" element={<SettingsPage />}>
               <Route path="profile" element={<ProfilePage />} />
               <Route path="account" element={<AccountPage />} />
